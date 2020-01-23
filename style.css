@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background-color: #00838F;*/
+}
+.box{
+	padding-left:15%;
+}
+.sidebar{
+	position: fixed;
+	background-color: #263238;
+	width: 15%;
+	height: 100%;
+}
+.sidebar li a:hover{
+	color:#D20;
+	text-shadow: 2px 2px 2px #fff;
+	transition: 0.3s;
+}
+.sidebar #W {
+	color:white;
+	text-transform: uppercase;
+}
+.sidebar li {
+	list-style-type: none;
+
+}
+
+.sidebar li a{
+	text-decoration: none;
+	color:white;
+	font-size: 32px;
+	display:block;
+	padding: 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+.home{
+	background-image: url(background.jpg);
+	height: 440px;
+	text-align: center;
+	padding-top: 200px;
+}
+.home img{
+	width: 120px;
+	border-image:30 round;
+
+
+}
+.home h1{
+	font-size: 60px;
+	text-shadow: 4px 2px 2px red;
+}
+.about {
+	margin-top: -30px;
+	display:block;
+	width: 100%;
+	
+}
+.about img{
+	margin-top:-70px;
+	width: 240px;
+
+}
+.about h1{
+	padding-top:20px;
+	font-size:32px;
+	text-align: center;
+}
+.about span {
+	font-weight: bold;
+}
+.box2{
+	display:flex;
+	border-left-style: black 1px solid;
+/*	background-color: #D50000;*/
+
+
+	
+
+}
+.box2 .about2{
+	text-align: left;
+	/*display: block;*/
+	width: 600px;
+	text-align: left;
+	font-size: 17px;
+	padding-left: 100px;
+	letter-spacing: 2px;
+
+
+}
+.box3{
+	display: flex;
+		
+
+}
+.about .hire a{
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	margin-top: -100px;
+	
+
+}
+.about2 span{
+	text-indent: all;
+}
+.skill {
+/*	background-image: url("service.jpg");*/
+background-color: #37474F;
+	height: 600px;
+	color:white;
+}
+.skill h1{
+	text-align: center;
+}
+.skill p {
+	text-align: center;
+	font-size: 20px;
+}
+.skill .py{
+	
+	display: block;
+	width: 1000px;
+	height: 20px;
+	background-color: red;
+
+}
+
+.skill .cpp{
+	
+	display: block;
+	width: 600px;
+	height: 20px;
+	background-color: #69F0AE;
+
+}
+.skill .bd{
+	
+	display: block;
+	width: 300px;
+	height: 20px;
+	background-color:#AEEA00
+
+}
+.skill .learn{
+	font-size: 30px;
+	background-color: #212121;
+}
+.service {
+	text-align: center;
+	
+}
+.service h1{
+
+}
+.service img{
+	width: all;
+	width: 30%;
+
+}
+.service h3{
+	font-size: 60px;
+}
+.contact{
+	background-color: #E65100;
+	margin-bottom: 0;
+	text-align: center;
+	padding-top:100px;
+}
+.contact p{
+	color:white;
+}
